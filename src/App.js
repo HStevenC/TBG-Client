@@ -6,12 +6,11 @@ import {BrowserRouter as Router,
    Route,
    Navigate
 } from "react-router-dom";
+
 //components
 import Dashboard from "./components/Dashboard";
 import Login from "./components/Login";
 import Register from "./components/Register";
-
-
 
 
 function App() {

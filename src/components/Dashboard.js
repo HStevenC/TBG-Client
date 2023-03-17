@@ -3,10 +3,7 @@ import ChatOutput from './chatOutput';
 const Dashboard = ({setAuth}) => {
 
     const [name, setName] = useState('');
-    //const [response, setResponse] = useState('');
     
-    
-
     async function getName() {
         try {
             const response = await fetch('http://localhost:5000/dashboard',{
